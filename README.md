@@ -56,4 +56,37 @@
       margin-top: 1rem;
     }
     .whatsapp {
-      margin ▋
+      margin-top: 2rem;
+    }
+    .whatsapp a {
+      background: #25D366;
+      color: white;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Sarkar E-Sports</h1>
+  </header>
+
+  <div class="intro">
+    <p>Get ready to compete in thrilling online tournaments and show off your skills. Register now and join our WhatsApp channel for the latest updates, match schedules, and team interactions!</p>
+  </div>
+
+  <form>
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="tel" name="phone" placeholder="Phone Number" required>
+    <input type="email" name="email" placeholder="Gmail" required>
+    <input type="text" name="team" placeholder="Team Name" required>
+    <button type="submit">Register Now</button>
+  </form>
+
+  <div class="whatsapp">
+    <a href="https://chat.whatsapp.com/H04HdpDpLez2gblNSTV7F6" target="_blank">Join WhatsApp Channel</a>
+  </div>
+</body>
+</html>
